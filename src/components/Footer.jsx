@@ -14,15 +14,20 @@ export default function Footer() {
 
         {/* COMPANY */}
         <div>
-          <h2 className="text-2xl font-bold text-yellow-400 mb-4">
-            EPOQUE GROUP
-          </h2>
+
+          {/* LOGO */}
+          <img
+            src="/logo.png"
+            alt="Epoque Group"
+            className="h-12 mb-4"
+          />
 
           <p className="text-gray-400 text-sm leading-relaxed">
             Creating premium living spaces with modern architecture,
             luxury amenities, and exceptional construction quality.
             Experience elegant living designed for the future.
           </p>
+
         </div>
 
         {/* QUICK LINKS */}
@@ -66,6 +71,7 @@ export default function Footer() {
 
         {/* CONTACT */}
         <div>
+
           <h3 className="text-white font-semibold mb-4">Contact Us</h3>
 
           <div className="space-y-4 text-gray-400 text-sm">

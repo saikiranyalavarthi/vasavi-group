@@ -29,7 +29,7 @@ const HeroSection = () => {
           Vasavi Crown East
           <br />
           <span className="text-yellow-400">
-            Luxury 3BHK & Sky Villas
+            Luxury 2BHK, 3BHK, 4BHK & Sky Villas
           </span>
         </h1>
 
