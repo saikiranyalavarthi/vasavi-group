@@ -35,7 +35,7 @@ const HeroSection = () => {
 
         {/* Sub Text */}
         <p className="text-gray-300 text-lg md:text-xl mb-10 leading-relaxed">
-          Starting at ₹ 6099++ per SFT · 34 Floors · 75% Open Space ·
+          Starting at ₹ 6099 per SFT · 34 Floors · 75% Open Space ·
           26,600 SFT Clubhouse · 100% Vaastu Compliant
         </p>
 

@@ -33,37 +33,38 @@ Message: ${form.message}`;
   };
 
   return (
-    <section id="contact" className="bg-black py-24 px-6 md:px-16">
+    <section id="contact" className="bg-black py-20 md:py-24 px-4 md:px-16">
 
       <div className="max-w-7xl mx-auto">
 
-        <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent tracking-widest">
+        {/* TITLE */}
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 md:mb-16 bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent tracking-widest">
           ENQUIRE NOW
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-16">
+        <div className="grid md:grid-cols-2 gap-12 md:gap-16">
 
           {/* CONTACT INFO */}
-          <div className="space-y-8">
+          <div className="space-y-6">
 
-            <div className="flex items-center gap-4">
-              <FaPhoneAlt className="text-yellow-400 text-xl" />
+            <div className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10 hover:border-yellow-400 transition">
+              <FaPhoneAlt className="text-yellow-400 text-2xl" />
               <div>
                 <h4 className="text-white font-semibold">Phone</h4>
                 <p className="text-gray-400">+91 9133 633 327</p>
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
-              <FaEnvelope className="text-yellow-400 text-xl" />
+            <div className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10 hover:border-yellow-400 transition">
+              <FaEnvelope className="text-yellow-400 text-2xl" />
               <div>
                 <h4 className="text-white font-semibold">Email</h4>
                 <p className="text-gray-400">sales@epoquegroup.in</p>
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
-              <FaMapMarkerAlt className="text-yellow-400 text-xl" />
+            <div className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10 hover:border-yellow-400 transition">
+              <FaMapMarkerAlt className="text-yellow-400 text-2xl" />
               <div>
                 <h4 className="text-white font-semibold">Location</h4>
                 <p className="text-gray-400">Hyderabad, Telangana</p>
@@ -73,7 +74,10 @@ Message: ${form.message}`;
           </div>
 
           {/* FORM */}
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form
+            onSubmit={handleSubmit}
+            className="space-y-5 bg-white/5 p-6 md:p-8 rounded-xl border border-white/10"
+          >
 
             <input
               type="text"
@@ -81,7 +85,7 @@ Message: ${form.message}`;
               placeholder="Full Name"
               onChange={handleChange}
               required
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-yellow-400 outline-none"
+              className="w-full bg-black/40 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-yellow-400 outline-none"
             />
 
             <input
@@ -90,14 +94,14 @@ Message: ${form.message}`;
               placeholder="Phone Number"
               onChange={handleChange}
               required
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-yellow-400 outline-none"
+              className="w-full bg-black/40 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-yellow-400 outline-none"
             />
 
             <select
               name="type"
               onChange={handleChange}
               required
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-yellow-400 outline-none"
+              className="w-full bg-black/40 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-yellow-400 outline-none"
             >
               <option className="text-black">Select Apartment Type</option>
               <option className="text-black">2 BHK</option>
@@ -110,7 +114,7 @@ Message: ${form.message}`;
               name="message"
               placeholder="Your Message"
               onChange={handleChange}
-              className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-yellow-400 outline-none"
+              className="w-full bg-black/40 border border-white/10 rounded-lg px-4 py-3 text-white focus:border-yellow-400 outline-none"
             ></textarea>
 
             <button
