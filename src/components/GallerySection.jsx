@@ -29,7 +29,7 @@ export default function GallerySection() {
   }, [selectedImage]);
 
   return (
-    <section className="bg-black py-20 px-4 md:px-16" id="gallery">
+    <section className="bg-black py-4 px-4 md:px-16" id="gallery">
       <div className="max-w-7xl mx-auto">
 
         {/* TITLE */}

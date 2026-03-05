@@ -12,7 +12,7 @@ const ProjectOverview = () => {
   return (
     <section
       id="overview"
-      className="relative py-20 md:py-28 bg-black text-white px-4 md:px-10 overflow-hidden"
+      className="relative py-4 md:py-4 bg-black text-white px-4 md:px-10 overflow-hidden"
     >
       {/* Glow Effects */}
       <div className="absolute -top-40 -left-40 w-96 h-96 bg-yellow-500 blur-[160px] opacity-10 rounded-full"></div>
