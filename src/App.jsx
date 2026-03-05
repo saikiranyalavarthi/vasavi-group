@@ -1,5 +1,6 @@
 import AboutSection from "./components/AboutSection";
 import AmenitiesSection from "./components/AmenitiesSection";
+import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import GallerySection from "./components/GallerySection";
 import HeroSection from "./components/HeroSection";
@@ -17,6 +18,7 @@ function App() {
       <ProjectOverview />
       <GallerySection />
       <Specifications />
+      <ContactSection/>
       <Footer/>
     </>
   );

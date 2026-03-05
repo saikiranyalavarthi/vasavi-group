@@ -19,7 +19,7 @@ export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <section className="bg-black py-24 px-6 md:px-16">
+    <section className="bg-black py-24 px-6 md:px-16" id="gallery">
       <div className="max-w-7xl mx-auto">
         {/* TITLE */}
         <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent tracking-widest">

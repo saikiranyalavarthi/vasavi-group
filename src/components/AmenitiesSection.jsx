@@ -26,7 +26,7 @@ const amenities = [
 
 const AmenitiesSection = () => {
   return (
-    <section className="relative py-4 bg-black text-white px-6 overflow-hidden">
+    <section className="relative py-4 bg-black text-white px-6 overflow-hidden" id="amenities">
       {/* Gold Glow Effects */}
       <div className="absolute -top-40 -left-40 w-96 h-96 bg-yellow-500 blur-[180px] opacity-10 rounded-full"></div>
       <div className="absolute -bottom-40 -right-40 w-96 h-96 bg-yellow-400 blur-[180px] opacity-10 rounded-full"></div>
