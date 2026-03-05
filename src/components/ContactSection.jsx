@@ -33,7 +33,7 @@ Message: ${form.message}`;
   };
 
   return (
-    <section id="contact" className="bg-black py-4 md:py-4 px-4 md:px-16">
+    <section id="contact" className="bg-black py-10 md:py-16 px-4 md:px-16">
 
       <div className="max-w-7xl mx-auto">
 
@@ -47,23 +47,32 @@ Message: ${form.message}`;
           {/* CONTACT INFO */}
           <div className="space-y-6">
 
-            <div className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10 hover:border-yellow-400 transition">
+            {/* PHONE */}
+            <a
+              href="tel:+919133633327"
+              className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10 hover:border-yellow-400 transition"
+            >
               <FaPhoneAlt className="text-yellow-400 text-2xl" />
               <div>
                 <h4 className="text-white font-semibold">Phone</h4>
                 <p className="text-gray-400">+91 9133 633 327</p>
               </div>
-            </div>
+            </a>
 
-            <div className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10 hover:border-yellow-400 transition">
+            {/* EMAIL */}
+            <a
+              href="mailto:sales@epoquegroup.in"
+              className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10 hover:border-yellow-400 transition"
+            >
               <FaEnvelope className="text-yellow-400 text-2xl" />
               <div>
                 <h4 className="text-white font-semibold">Email</h4>
                 <p className="text-gray-400">sales@epoquegroup.in</p>
               </div>
-            </div>
+            </a>
 
-            <div className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10 hover:border-yellow-400 transition">
+            {/* LOCATION */}
+            <div className="flex items-center gap-4 bg-white/5 p-5 rounded-lg border border-white/10">
               <FaMapMarkerAlt className="text-yellow-400 text-2xl" />
               <div>
                 <h4 className="text-white font-semibold">Location</h4>
@@ -106,7 +115,7 @@ Message: ${form.message}`;
               <option className="text-black">Select Apartment Type</option>
               <option className="text-black">2 BHK</option>
               <option className="text-black">3 BHK</option>
-              <option className="text-black">4 BHK</option>
+              <option className="text-black">4 BHK Sky Villas</option>
             </select>
 
             <textarea
